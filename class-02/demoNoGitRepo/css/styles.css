@@ -1,0 +1,60 @@
+/* * {
+  outline: dotted rgb(225, 248, 17);
+} */
+
+
+body{
+  margin: 0 auto;
+  width: 1000px;
+  background-color: rgb(40, 138, 236);
+}
+
+
+main {
+  background-color: rgb(14, 196, 251);
+}
+
+header {
+  margin-bottom: 100px;
+}
+
+nav {
+  height: 200px;
+  background-color: rgb(24, 24, 190);
+}
+
+ul li {
+  display: inline;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: turquoise;
+}
+
+
+
+
+
+ol li {
+  margin-top: 40px;
+  display: inline;
+  color: whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(32, 230, 32);
+}
+
+footer{
+  margin-top: 20px;
+}
+
+#another-style {
+  border: 5px solid rgb(151, 138, 138);
+}
+
+.more-styles {
+background-color: rgb(21, 255, 0);
+  color: rgb(19, 18, 18);
+
+  
+}
