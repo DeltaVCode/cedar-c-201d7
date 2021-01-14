@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+
+  margin: 0 auto;
+  background-color: rgb(19,135,243);
+}
+
+main{
+background-color: cornsilk;
+margin: 0 auto;
+}
+
+
+
+h1 {
+text-align: center;
+  font-size: 68px;
+}
+
+h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+li { 
+  font-size: 25px;
+  display: inline;
+  padding: 5px;
+}
+
+p{ 
+  font-size: 25px;
+  margin: 30px;
+}
+
+img {
+  margin: 20px;
+  height: 200px;
+  width: 300px;
+
+}
+
+#kittenProfiles {
+  margin-top: 30px;
+}
+
+
+.centerDiv {
+text-align: center;
+clear: both;
+background-color: rgb(20,220,220);
+
+
+}
+
+article {
+  width: 375px;
+  height: 500px;
+  text-align: center;
+
+  border: 1px solid purple;
+  border-radius: 10px;
+  margin: 25px;
+  font-size: 12px;
+  padding: 0;
+  float: left;
+} 
+
+table{
+margin-left: 60px;
+clear: both;
+border: 8px solid blue;
+float: left;
+background-color: rgb(192, 222, 226);
+
+} 
+
+thead {
+  background-color: lime;
+  border-bottom: 4px solid black;
+}
+th {
+  padding: 35px;
+  font-size: 25px;
+}
+td {
+border: 5px solid blueviolet;
+padding: 25px 100px 15px 25px;
+color: white;
+font-size: 22px;
+
+}
+
+
+footer {
+clear: both;
+height: 500px;
+margin-top: 50px;
+width: 100%;
+background-color: lightsteelblue;
+  
+}
+
+
