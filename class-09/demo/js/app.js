@@ -63,27 +63,27 @@ Pet.prototype.render = function() {
   article.appendChild(img);
 
 
-//   var animalTable = document.getElementById('animal-table');
+  var animalTable = document.getElementById('animal-table');
 
-//   var petRow = document.createElement('tr');
-//   var nameCell = document.createElement('td');
-//   nameCell.textContent = this.name;
-//   petRow.appendChild(nameCell);
+  var petRow = document.createElement('tr');
+  var nameCell = document.createElement('td');
+  nameCell.textContent = this.name;
+  petRow.appendChild(nameCell);
 
-//   var breedCell = document.createElement('td');
-//   breedCell.textContent = this.breed;
-//   petRow.appendChild(breedCell);
+  var breedCell = document.createElement('td');
+  breedCell.textContent = this.breed;
+  petRow.appendChild(breedCell);
 
-//   var ageCell = document.createElement('td');
-//   ageCell.textContent = this.age;
-//   petRow.appendChild(ageCell);
+  var ageCell = document.createElement('td');
+  ageCell.textContent = this.age;
+  petRow.appendChild(ageCell);
 
-//   var interestsCell = document.createElement('td');
-//   interestsCell.textContent = this.getInterests();
-//   // interestsCell.textContent = this.interests;
-//   petRow.appendChild(interestsCell);
-//   animalTable.appendChild(petRow);
-// };
+  var interestsCell = document.createElement('td');
+  interestsCell.textContent = this.getInterests();
+  // interestsCell.textContent = this.interests;
+  petRow.appendChild(interestsCell);
+  animalTable.appendChild(petRow);
+};
 
 
 var firstPet = new Pet('Nova','Lab', 'labradorDog', ['chewy toys', 'playin keep away', 'Blue Eyes', 'good girl'], true, true, true);
@@ -118,14 +118,14 @@ function handleFormSumitted(event){
 
   var breedInput = document.getElementById('breed');
   var breedValue = breedInput['value'];
-                      
+
 
   var imageInput = document.getElementById('imageName');
   var imageValue = imageInput.value;
   console.log(imageInput.value);
   var interestsInput = document.getElementById('interests');
   var interestsValue = interestsInput.value;
-   
+
 
   var isGoodWithKids = event.target.isGoodWithKids.checked;
   var isGoodWithDogs = event.target.isGoodWithDogs.checked;
@@ -136,6 +136,8 @@ function handleFormSumitted(event){
   //make us of of prototypes
   newPet.setAge();
   newPet.getInterests();
+  newPet.render();
+
   var form = document.getElementById('new-pets');
   form.reset();
 
@@ -145,9 +147,10 @@ function handleFormSumitted(event){
 
 
 //Set up the event listener to listen to the submit event.
-//1. which element do we need 
+//1. which element do we need
 var formElement = document.getElementById('new-pets');
-
 //2.which event am I listening for?
-//3.what code should I run when that event happens? 
+//3.what code should I run when that event happens?
 formElement.addEventListener('submit',handleFormSumitted);
+
+

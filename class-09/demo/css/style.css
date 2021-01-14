@@ -3,9 +3,8 @@
 }
 
 body{
-
   margin: 0 auto;
-  background-color: rgb(19,135,243);
+  background-color: rgb(74, 128, 179);
 }
 
 main{
@@ -105,3 +104,22 @@ background-color: lightsteelblue;
 }
 
 
+
+
+/* Form styles */
+fieldset {
+  background-color: beige;
+  clear: both;
+}
+form{
+  background-color: ivory;
+  clear: both;
+}
+div{text-align: center;}
+button {
+  margin: 20px;
+  display: inline-block;
+  
+  /* float:right; */
+
+}
