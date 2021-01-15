@@ -131,8 +131,9 @@ function handleFormSumitted(event){
   var isGoodWithDogs = event.target.isGoodWithDogs.checked;
   var isGoodWithCats = event.target.isGoodWithCats.checked;
   //get new pet object
+    console.log(event.target);
   var newPet = new Pet(nameValue,breedValue,imageValue,interestsValue,isGoodWithKids,isGoodWithDogs,isGoodWithCats);
-
+    console.log(newPet);
   //make us of of prototypes
   newPet.setAge();
   newPet.getInterests();
