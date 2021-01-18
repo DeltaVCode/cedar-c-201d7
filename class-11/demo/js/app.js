@@ -42,7 +42,7 @@ function imageWasClicked(event){
   totalClicks++;
   if(event.srcElement.id === '1'){
     allPizzas[pizzaIndex1].timesClicked++;
-  } else if (event.srcElement[pizzaIndex2]){
+  } else if (event.srcElement[pizzaIndex2] === '2'){
     allPizzas[pizzaIndex2].timesClicked++;
   }
 
