@@ -1,4 +1,4 @@
-# Code Fellows Project Guidelines
+# DeltaV Project Guidelines
 
 Welcome to Project Week! Here is a list of Code Fellows' best practices for proper Git and GitHub workflow with your project team.
 
