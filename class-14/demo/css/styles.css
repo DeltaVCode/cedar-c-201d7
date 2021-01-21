@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 1400px;
+  margin: 0 auto;
+  background-color: tomato;
+}
+
+main{
+  text-align: center;
+  background-color: whitesmoke;
+  overflow: hidden;
+  padding-bottom: 25px;
+}
+
+h1{
+  font-size: 40px;
+  margin: 10px;
+  text-align: center;
+  font-family: 'Potta One', cursive;
+}
+h2 {
+font-size: 30
+}
+
+
+aside {
+  height: 500px;
+  width: 550px;
+  background-color: rgba(235, 112, 136, .8);
+  float: left;
+  margin-left: 25px;
+  padding: 10px;
+}
+
+header {
+  margin-bottom: 15px; 
+}
+img {
+margin-top: 75px;
+height: 300px;
+width: 300px;
+transition: 1s;
+border: 15px solid rgb(25, 189, 218);
+position: relative;
+box-shadow: 14px 13px 15px seagreen;
+}
+
+img:hover {
+  border: 25px dashed rgb(21, 252, 121);
+}
+
+
+
+
+footer {
+
+text-align: center;
+width: 1400px;
+/* position: fixed; */
+/* margin: 50px; */
+background-color: whitesmoke;
+font-size: 35px;
+padding: 30px;
+border-top: 10px solid rgb(26,115,216);
+
+}
+
+
+li{
+ text-align: center;
+  padding: 5px;
+}
+h3 {
+  text-align: center;
+}
+
+form {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+
+}
+
+
+
+.rebeccapurple-border {
+  border: 30px solid rebeccapurple;
+}
